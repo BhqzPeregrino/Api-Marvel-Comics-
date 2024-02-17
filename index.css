@@ -1,0 +1,95 @@
+#char-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  width: 250px;
+  margin: 0 10px 10px 0;
+  box-sizing: border-box;
+  float: left;
+}
+
+.char-container {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#myModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+#closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #000;
+  z-index: 1000;
+}
+
+.li-modal {
+  margin-bottom: 10px;
+}
+
+
+.modal.marvel {
+  background-color: #ed1d24;
+  color: #fff;
+  border-radius: 2%;
+}
+
+.modal ul{
+  list-style: none;
+}
+
+.btn-marvel {
+  background-color: #ed1d24;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-marvel:hover {
+  background-color: #b00b12;
+}
+
+body{
+  background-color: blue;
+}
